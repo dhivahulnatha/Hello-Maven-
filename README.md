@@ -1,45 +1,87 @@
-\# HelloMaven
+# Lab 05 - Maven Practical Tasks
+
+## Student Information
+
+**Name:** Iyoob Dhivahul Natha
+
+**Registration Number:** *245021U*
 
 
+---
 
-\## Description
+## Module
 
-A simple Java Maven project created to demonstrate Maven project structure, compilation, testing and packaging.
+IN2120 – Web Programming (Lab 05 - Maven Session)
 
+---
 
+## Project Summary
 
-\## Technologies Used
+This repository contains the practical tasks completed during the Maven laboratory session.
 
-\- Java 17
+### Task 01 - Hello Maven
 
-\- Apache Maven
+* Created a Maven project.
+* Configured the project using Maven.
+* Implemented a simple Java application that prints:
 
-\- JUnit
+```
+Hello World!
+```
 
+### Task 02 - Student Class
 
+* Created a Student Java class.
+* Demonstrated basic Java class creation and package organization.
 
-\## Project Structure
+---
 
+## Technologies Used
 
+* Java 17
+* Apache Maven
+* Git
+* GitHub
+* Visual Studio Code
 
-src/main/java
+---
 
-\- App.java
+## Maven Commands Executed
 
+```bash
+mvn clean
+mvn compile
+mvn exec:java "-Dexec.mainClass=com.iyoob.lab01.HelloMaven"
+```
 
+---
 
+## How to Run
 
-src/test/java
+Clone the repository
 
-\- AppTest.java
+```bash
+git clone <repository-url>
+```
 
+Navigate to the project
 
+```bash
+cd HelloMaven
+```
 
-\## How to Run
+Compile
 
+```bash
+mvn compile
+```
 
+Run
 
-Compile:
+```bash
+mvn exec:java "-Dexec.mainClass=com.iyoob.lab01.HelloMaven"
+```
+
 
 
 
